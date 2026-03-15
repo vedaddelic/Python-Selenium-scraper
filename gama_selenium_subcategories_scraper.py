@@ -24,8 +24,8 @@ LOGIN_URL = f"{BASE_URL}/prijava"
 OUTPUT_COLUMNS = ["Kategorija", "Proizvodjac", "Naslov", "Opis", "Cijena", "Slike", "Link"]
 MIN_PRICE = 0.1
 
-USERNAME = os.getenv("GAMA_USERNAME", "info@tehnomax.ba")
-PASSWORD = os.getenv("GAMA_PASSWORD", "sp15zv1")
+USERNAME = os.getenv("GAMA_USERNAME")
+PASSWORD = os.getenv("GAMA_PASSWORD")
 
 
 def get_default_geckodriver_path() -> str:
